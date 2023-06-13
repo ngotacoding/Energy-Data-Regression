@@ -1,8 +1,15 @@
 # Dataset Description
 
   ## Appliances Energy Prediction Dataset
+The data set captures energy consumption of appliances in a house over a period of 4.5 months with a sampling frequency of 10 minutes. The temperature and humidity conditions inside the house were monitored using a ZigBee wireless sensor network, and the energy data was logged using m-bus energy meters.
 
-The data set is at 10 min for about 4.5 months. The house temperature and humidity conditions were monitored with a ZigBee wireless sensor network. Each wireless node transmitted the temperature and humidity conditions around 3.3 min. Then, the wireless data was averaged for 10 minutes periods. The energy data was logged every 10 minutes with m-bus energy meters. Weather from the nearest airport weather station (Chievres Airport, Belgium) was downloaded from a public data set from Reliable Prognosis (rp5.ru), and merged together with the experimental data sets using the date and time column. Two random variables have been included in the data set for testing the regression models and to filter out non predictive attributes (parameters). The attribute information can be seen below.
+The dataset includes the following information:
+
+- Temperature and humidity readings from the wireless sensor network (averaged over 10-minute periods).
+- Energy consumption measurements logged every 10 minutes.
+- Weather data obtained from Chievres Airport, Belgium (nearest airport weather station), downloaded from Reliable Prognosis (rp5.ru).
+- Two random variables included for testing regression models and filtering out non-predictive attributes.
+
 
 ## Attribute Information:
 |feature|description|
