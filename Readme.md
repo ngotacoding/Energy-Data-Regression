@@ -4,27 +4,35 @@ This repository contains the code and documentation for the Energy Data Regressi
 
 ## Task Description
 
-The Energy Data Regression Task aims to predict the energy consumption of buildings based on various features such as temperature, humidity, and building characteristics. The task involves training a regression model on a given dataset and evaluating its performance using appropriate metrics.
+The Energy Data Regression Task aims to explore the relationship between energy consumption and various factors such as temperature, humidity, and time of day.
 
 ## Dataset
 
-The dataset used for this task is provided in the `data` directory. It contains the following files:
+The dataset used for this task is hosted on google drive and can be accessed using the gdown python package. The dataset is the [Appliances Energy Prediction Dataset](https://drive.google.com/file/d/1Eru_UHVc3WLHVveC9Q8K9QUxlzYeHt18/view?usp=share_link)
 
-- `energy_data.csv`: The main dataset file containing the energy consumption and feature variables.
+The description of the dataset and its features is found in the [Dataset Description markdown file](https://github.com/ngotacoding/Energy-Data-Regression/blob/main/Dataset%20Description.md)
 
 ## Requirements
 
 To run the code in this repository, you need to have the following dependencies installed:
 
 - Python
-- gdown
+- Warnings
+- Gdown
 - NumPy
 - Pandas
-- Scikit-learn 
+- Scikit-learn
+
+All the python packages can be installed using the command:
+
+```
+pip install <package-name>
+```
+
 
 ## Usage
 
-1. Clone this repository:
+-  Clone this repository:
 
    ```bash
-   git clone https://github.com/your-username/energy-data-regression.git
+   git clone https://github.com/ngotacoding/energy-data-regression.git
