@@ -1,6 +1,6 @@
-# Energy Data Regression Task
+# Energy Data Regression
 
-This repository contains the code and documentation for the Energy Data Regression Task as part of the Hamoye Internship.
+This repository contains the code and documentation for the Energy Data Regression project.
 
 ## Task Description
 
